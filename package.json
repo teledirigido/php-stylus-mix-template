@@ -1,0 +1,30 @@
+{
+  "name": "miguelnz-template-mix",
+  "version": "1.0.0",
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "browser-sync-webpack-plugin": "2.0.1",
+    "cross-env": "^5.2.0",
+    "laravel-mix": "^4.0.15",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "dependencies": {
+    "promise-polyfill": "8.1.0",
+    "formdata-polyfill": "^3.0.13",
+    "smoothscroll-polyfill": "^0.4.3"
+  },
+  "description": "Read more at www.miguel.nz/template",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "npm run production",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "Miguel Garrido",
+  "license": "ISC"
+}
