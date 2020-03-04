@@ -1,5 +1,6 @@
 # dist folder
 /dist
+yarn-error.log
 
 # Don't add the Local settings file to the repository #
 wp-config.php
@@ -11,7 +12,7 @@ wp-config-sample.php
 *.css.map
 *.js.map
  
-# GRUNT Files
+# Node modules
 node_modules
 node_modules/*
 

@@ -2,17 +2,17 @@
   "name": "miguelnz-template-mix",
   "version": "1.0.0",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
-    "browser-sync-webpack-plugin": "2.0.1",
-    "cross-env": "^5.2.0",
-    "laravel-mix": "^4.0.15",
-    "stylus": "^0.54.5",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "laravel-mix": "^5.0.0",
+    "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.11",
+    "cross-env": "^7.0.1"
   },
   "dependencies": {
-    "promise-polyfill": "8.1.0",
     "formdata-polyfill": "^3.0.13",
+    "promise-polyfill": "8.1.0",
     "smoothscroll-polyfill": "^0.4.3"
   },
   "description": "Read more at www.miguel.nz/template",
