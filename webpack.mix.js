@@ -1,7 +1,7 @@
 let mix = require('laravel-mix');
 const env = process.env.NODE_ENV;
 
-const startPath = '/php-stylus-mix-template';
+const startPath = '/testing/php-stylus-mix-template/';
 const viewsFolder = '.';
 const assetsFolder = '.';
 const publicFolder = 'dist/'
